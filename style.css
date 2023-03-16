@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    padding: 25px;
+
+}
+@keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+    
+}
+form{
+    width: 40%;
+    opacity: 0.9   ;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 11px 10px 44px -10px rgba(0,0,0,0.63);
+-webkit-box-shadow: 11px 10px 44px -10px rgba(0,0,0,0.63);
+-moz-box-shadow: 11px 10px 44px -10px rgba(0,0,0,0.63);
+}
+.btn{
+    width: 70%;
+    height: 50px;
+    border-radius: 20px;
+   border: none;
+   background-color: black;
+color: white; 
+font-weight: 700;
+font-size: 20px;
+margin-top: 20%;
+}
+form h1{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    width: 80%;
+    /* height: 90px; */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    opacity: 0.8;
+    padding: 2%;
+}
+form h2{
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+   
+}
